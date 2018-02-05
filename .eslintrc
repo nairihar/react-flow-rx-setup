@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "semi": ["error", "never", { "beforeStatementContinuationChars": "never"}],
+    "react/jsx-filename-extension": "off"
+  }
+}
